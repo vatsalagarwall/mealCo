@@ -10,13 +10,13 @@ const Login = ({ setUserId }) => {
     password: "",
   });
   const { email, password } = inputValue;
-  // const handleOnChange = (e) => {
-  //   const { name, value } = e.target;
-  //   setInputValue({
-  //     ...inputValue,
-  //     [name]: value,
-  //   });
-  // };
+  const handleOnChange = (e) => {
+    const { name, value } = e.target;
+    setInputValue({
+      ...inputValue,
+      [name]: value,
+    });
+  };
 
   const handleError = (err) =>
     toast.error(err, {
