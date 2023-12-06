@@ -41,6 +41,7 @@ const Login = ({ setUserId }) => {
       const { success, message } = data;
       if (success) {
         console.log(data);
+
         setUserId(data.userId);
         handleSuccess(message);
         localStorage.setItem("userId", data.userId);
