@@ -39,7 +39,7 @@ function AboutUs() {
                 for everyone.
               </p>
 
-              <Link to="/" className="btn navButton btn-outline-dark">
+              <Link to="/products" className="btn navButton btn-outline-dark">
                 Back to Home
               </Link>
             </div>
