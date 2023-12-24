@@ -5,7 +5,7 @@ function Success() {
   return (
     <div className="success-container">
       <div className="success">
-        Order placed successfully.
+        Order placed .
         <div style={{ marginTop: "20px" }}>
           <Link to="/your-orders" className="btn btn-outline-dark card-button">
             My Orders
